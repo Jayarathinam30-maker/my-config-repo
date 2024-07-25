@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/vitalservice?createDatabaseIfNotExist=true
-    username: root
-    password: root
+    username: ${database_username}
+    password: ${database_password}
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
